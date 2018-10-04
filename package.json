@@ -1,0 +1,20 @@
+{
+  "name": "background-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/vudulin/background-task.git",
+  "author": "vudulin <vudulin@mail.ru>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-scripts": "^1.1.5"
+  },
+  "devDependencies": {
+    "webpack": "^4.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  }
+}
