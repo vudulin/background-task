@@ -65,9 +65,10 @@ export default class App extends Component {
     }, this.validateForm);
   }
 
-  validateForm() {
-    this.setState({formValid: this.state.inputColorToValid && this.state.inputColorFromValid});
-
+  validateForm = () => {
+    this.setState({
+      formValid: this.state.inputColorToValid && this.state.inputColorFromValid
+    });
   }
 
   render() {
